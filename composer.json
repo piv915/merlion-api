@@ -3,5 +3,8 @@
     "description": "Merlion api client",
     "require": {
         "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["."]
     }
 }
