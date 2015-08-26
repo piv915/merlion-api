@@ -1,0 +1,7 @@
+{
+    "name": "piv915/merlion-api",
+    "description": "Merlion api client",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
