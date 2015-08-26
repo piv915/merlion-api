@@ -23,14 +23,14 @@ class MerlionServiceSet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructSetOrderHeaderCommand $_qjaoBlStructSetOrderHeaderCommand
+     * @param MerlionStructSetOrderHeaderCommand $_merlionStructSetOrderHeaderCommand
      * @return MerlionStructSetOrderHeaderCommandResponse
      */
-    public function setOrderHeaderCommand(MerlionStructSetOrderHeaderCommand $_qjaoBlStructSetOrderHeaderCommand)
+    public function setOrderHeaderCommand(MerlionStructSetOrderHeaderCommand $_merlionStructSetOrderHeaderCommand)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->setOrderHeaderCommand($_qjaoBlStructSetOrderHeaderCommand));
+            return $this->setResult(self::getSoapClient()->setOrderHeaderCommand($_merlionStructSetOrderHeaderCommand));
         }
         catch(SoapFault $soapFault)
         {
@@ -43,14 +43,14 @@ class MerlionServiceSet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructSetOrderLineCommand $_qjaoBlStructSetOrderLineCommand
+     * @param MerlionStructSetOrderLineCommand $_merlionStructSetOrderLineCommand
      * @return MerlionStructSetOrderLineCommandResponse
      */
-    public function setOrderLineCommand(MerlionStructSetOrderLineCommand $_qjaoBlStructSetOrderLineCommand)
+    public function setOrderLineCommand(MerlionStructSetOrderLineCommand $_merlionStructSetOrderLineCommand)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->setOrderLineCommand($_qjaoBlStructSetOrderLineCommand));
+            return $this->setResult(self::getSoapClient()->setOrderLineCommand($_merlionStructSetOrderLineCommand));
         }
         catch(SoapFault $soapFault)
         {
@@ -63,14 +63,14 @@ class MerlionServiceSet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructSetAddOrderLineCommand $_qjaoBlStructSetAddOrderLineCommand
+     * @param MerlionStructSetAddOrderLineCommand $_merlionStructSetAddOrderLineCommand
      * @return MerlionStructSetAddOrderLineCommandResponse
      */
-    public function setAddOrderLineCommand(MerlionStructSetAddOrderLineCommand $_qjaoBlStructSetAddOrderLineCommand)
+    public function setAddOrderLineCommand(MerlionStructSetAddOrderLineCommand $_merlionStructSetAddOrderLineCommand)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->setAddOrderLineCommand($_qjaoBlStructSetAddOrderLineCommand));
+            return $this->setResult(self::getSoapClient()->setAddOrderLineCommand($_merlionStructSetAddOrderLineCommand));
         }
         catch(SoapFault $soapFault)
         {
@@ -83,14 +83,14 @@ class MerlionServiceSet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructSetMoveOrderLineCommand $_qjaoBlStructSetMoveOrderLineCommand
+     * @param MerlionStructSetMoveOrderLineCommand $_merlionStructSetMoveOrderLineCommand
      * @return MerlionStructSetMoveOrderLineCommandResponse
      */
-    public function setMoveOrderLineCommand(MerlionStructSetMoveOrderLineCommand $_qjaoBlStructSetMoveOrderLineCommand)
+    public function setMoveOrderLineCommand(MerlionStructSetMoveOrderLineCommand $_merlionStructSetMoveOrderLineCommand)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->setMoveOrderLineCommand($_qjaoBlStructSetMoveOrderLineCommand));
+            return $this->setResult(self::getSoapClient()->setMoveOrderLineCommand($_merlionStructSetMoveOrderLineCommand));
         }
         catch(SoapFault $soapFault)
         {
@@ -103,14 +103,14 @@ class MerlionServiceSet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructSetDeleteOrderCommand $_qjaoBlStructSetDeleteOrderCommand
+     * @param MerlionStructSetDeleteOrderCommand $_merlionStructSetDeleteOrderCommand
      * @return MerlionStructSetDeleteOrderCommandResponse
      */
-    public function setDeleteOrderCommand(MerlionStructSetDeleteOrderCommand $_qjaoBlStructSetDeleteOrderCommand)
+    public function setDeleteOrderCommand(MerlionStructSetDeleteOrderCommand $_merlionStructSetDeleteOrderCommand)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->setDeleteOrderCommand($_qjaoBlStructSetDeleteOrderCommand));
+            return $this->setResult(self::getSoapClient()->setDeleteOrderCommand($_merlionStructSetDeleteOrderCommand));
         }
         catch(SoapFault $soapFault)
         {
@@ -123,14 +123,14 @@ class MerlionServiceSet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructSetSignOrderCommand $_qjaoBlStructSetSignOrderCommand
+     * @param MerlionStructSetSignOrderCommand $_merlionStructSetSignOrderCommand
      * @return MerlionStructSetSignOrderCommandResponse
      */
-    public function setSignOrderCommand(MerlionStructSetSignOrderCommand $_qjaoBlStructSetSignOrderCommand)
+    public function setSignOrderCommand(MerlionStructSetSignOrderCommand $_merlionStructSetSignOrderCommand)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->setSignOrderCommand($_qjaoBlStructSetSignOrderCommand));
+            return $this->setResult(self::getSoapClient()->setSignOrderCommand($_merlionStructSetSignOrderCommand));
         }
         catch(SoapFault $soapFault)
         {

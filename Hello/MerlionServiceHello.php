@@ -23,14 +23,14 @@ class MerlionServiceHello extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructHelloWorld $_qjaoBlStructHelloWorld
+     * @param MerlionStructHelloWorld $_merlionStructHelloWorld
      * @return MerlionStructHelloWorldResponse
      */
-    public function helloWorld(MerlionStructHelloWorld $_qjaoBlStructHelloWorld)
+    public function helloWorld(MerlionStructHelloWorld $_merlionStructHelloWorld)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->helloWorld($_qjaoBlStructHelloWorld));
+            return $this->setResult(self::getSoapClient()->helloWorld($_merlionStructHelloWorld));
         }
         catch(SoapFault $soapFault)
         {

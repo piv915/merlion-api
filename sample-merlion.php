@@ -41,144 +41,144 @@ require_once dirname(__FILE__) . '/MerlionAutoload.php';
 /********************************
  * Example for MerlionServiceHello
  */
-$qjaoBlServiceHello = new MerlionServiceHello();
+$merlionServiceHello = new MerlionServiceHello();
 // sample call for MerlionServiceHello::helloWorld()
-if($qjaoBlServiceHello->helloWorld(new MerlionStructHelloWorld(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceHello->getResult());
+if($merlionServiceHello->helloWorld(new MerlionStructHelloWorld(/*** update parameters list ***/)))
+    print_r($merlionServiceHello->getResult());
 else
-    print_r($qjaoBlServiceHello->getLastError());
+    print_r($merlionServiceHello->getLastError());
 
 /******************************
  * Example for MerlionServiceGet
  */
-$qjaoBlServiceGet = new MerlionServiceGet();
+$merlionServiceGet = new MerlionServiceGet();
 // sample call for MerlionServiceGet::getCatalog()
-if($qjaoBlServiceGet->getCatalog(new MerlionStructGetCatalog(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getCatalog(new MerlionStructGetCatalog(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getShipmentDates()
-if($qjaoBlServiceGet->getShipmentDates(new MerlionStructGetShipmentDates(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getShipmentDates(new MerlionStructGetShipmentDates(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getShipmentMethods()
-if($qjaoBlServiceGet->getShipmentMethods(new MerlionStructGetShipmentMethods(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getShipmentMethods(new MerlionStructGetShipmentMethods(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getShipmentAgents()
-if($qjaoBlServiceGet->getShipmentAgents(new MerlionStructGetShipmentAgents(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getShipmentAgents(new MerlionStructGetShipmentAgents(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getCounterAgent()
-if($qjaoBlServiceGet->getCounterAgent(new MerlionStructGetCounterAgent(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getCounterAgent(new MerlionStructGetCounterAgent(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getRepresentative()
-if($qjaoBlServiceGet->getRepresentative(new MerlionStructGetRepresentative(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getRepresentative(new MerlionStructGetRepresentative(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getEndPointDelivery()
-if($qjaoBlServiceGet->getEndPointDelivery(new MerlionStructGetEndPointDelivery(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getEndPointDelivery(new MerlionStructGetEndPointDelivery(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getPackingTypes()
-if($qjaoBlServiceGet->getPackingTypes(new MerlionStructGetPackingTypes(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getPackingTypes(new MerlionStructGetPackingTypes(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getItems()
-if($qjaoBlServiceGet->getItems(new MerlionStructGetItems(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getItems(new MerlionStructGetItems(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getItemsAvail()
-if($qjaoBlServiceGet->getItemsAvail(new MerlionStructGetItemsAvail(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getItemsAvail(new MerlionStructGetItemsAvail(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getItemsProperties()
-if($qjaoBlServiceGet->getItemsProperties(new MerlionStructGetItemsProperties(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getItemsProperties(new MerlionStructGetItemsProperties(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getItemsImages()
-if($qjaoBlServiceGet->getItemsImages(new MerlionStructGetItemsImages(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getItemsImages(new MerlionStructGetItemsImages(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getLinkedItems()
-if($qjaoBlServiceGet->getLinkedItems(new MerlionStructGetLinkedItems(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getLinkedItems(new MerlionStructGetLinkedItems(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getOrdersList()
-if($qjaoBlServiceGet->getOrdersList(new MerlionStructGetOrdersList(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getOrdersList(new MerlionStructGetOrdersList(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getOrderLines()
-if($qjaoBlServiceGet->getOrderLines(new MerlionStructGetOrderLines(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getOrderLines(new MerlionStructGetOrderLines(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getOrderLinesGTD()
-if($qjaoBlServiceGet->getOrderLinesGTD(new MerlionStructGetOrderLinesGTD(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getOrderLinesGTD(new MerlionStructGetOrderLinesGTD(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getCommandResult()
-if($qjaoBlServiceGet->getCommandResult(new MerlionStructGetCommandResult(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getCommandResult(new MerlionStructGetCommandResult(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getCurrencyRate()
-if($qjaoBlServiceGet->getCurrencyRate(new MerlionStructGetCurrencyRate(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getCurrencyRate(new MerlionStructGetCurrencyRate(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 // sample call for MerlionServiceGet::getCountry()
-if($qjaoBlServiceGet->getCountry(new MerlionStructGetCountry(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceGet->getResult());
+if($merlionServiceGet->getCountry(new MerlionStructGetCountry(/*** update parameters list ***/)))
+    print_r($merlionServiceGet->getResult());
 else
-    print_r($qjaoBlServiceGet->getLastError());
+    print_r($merlionServiceGet->getLastError());
 
 /******************************
  * Example for MerlionServiceSet
  */
-$qjaoBlServiceSet = new MerlionServiceSet();
+$merlionServiceSet = new MerlionServiceSet();
 // sample call for MerlionServiceSet::setOrderHeaderCommand()
-if($qjaoBlServiceSet->setOrderHeaderCommand(new MerlionStructSetOrderHeaderCommand(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceSet->getResult());
+if($merlionServiceSet->setOrderHeaderCommand(new MerlionStructSetOrderHeaderCommand(/*** update parameters list ***/)))
+    print_r($merlionServiceSet->getResult());
 else
-    print_r($qjaoBlServiceSet->getLastError());
+    print_r($merlionServiceSet->getLastError());
 // sample call for MerlionServiceSet::setOrderLineCommand()
-if($qjaoBlServiceSet->setOrderLineCommand(new MerlionStructSetOrderLineCommand(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceSet->getResult());
+if($merlionServiceSet->setOrderLineCommand(new MerlionStructSetOrderLineCommand(/*** update parameters list ***/)))
+    print_r($merlionServiceSet->getResult());
 else
-    print_r($qjaoBlServiceSet->getLastError());
+    print_r($merlionServiceSet->getLastError());
 // sample call for MerlionServiceSet::setAddOrderLineCommand()
-if($qjaoBlServiceSet->setAddOrderLineCommand(new MerlionStructSetAddOrderLineCommand(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceSet->getResult());
+if($merlionServiceSet->setAddOrderLineCommand(new MerlionStructSetAddOrderLineCommand(/*** update parameters list ***/)))
+    print_r($merlionServiceSet->getResult());
 else
-    print_r($qjaoBlServiceSet->getLastError());
+    print_r($merlionServiceSet->getLastError());
 // sample call for MerlionServiceSet::setMoveOrderLineCommand()
-if($qjaoBlServiceSet->setMoveOrderLineCommand(new MerlionStructSetMoveOrderLineCommand(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceSet->getResult());
+if($merlionServiceSet->setMoveOrderLineCommand(new MerlionStructSetMoveOrderLineCommand(/*** update parameters list ***/)))
+    print_r($merlionServiceSet->getResult());
 else
-    print_r($qjaoBlServiceSet->getLastError());
+    print_r($merlionServiceSet->getLastError());
 // sample call for MerlionServiceSet::setDeleteOrderCommand()
-if($qjaoBlServiceSet->setDeleteOrderCommand(new MerlionStructSetDeleteOrderCommand(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceSet->getResult());
+if($merlionServiceSet->setDeleteOrderCommand(new MerlionStructSetDeleteOrderCommand(/*** update parameters list ***/)))
+    print_r($merlionServiceSet->getResult());
 else
-    print_r($qjaoBlServiceSet->getLastError());
+    print_r($merlionServiceSet->getLastError());
 // sample call for MerlionServiceSet::setSignOrderCommand()
-if($qjaoBlServiceSet->setSignOrderCommand(new MerlionStructSetSignOrderCommand(/*** update parameters list ***/)))
-    print_r($qjaoBlServiceSet->getResult());
+if($merlionServiceSet->setSignOrderCommand(new MerlionStructSetSignOrderCommand(/*** update parameters list ***/)))
+    print_r($merlionServiceSet->getResult());
 else
-    print_r($qjaoBlServiceSet->getLastError());
+    print_r($merlionServiceSet->getLastError());

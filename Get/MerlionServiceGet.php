@@ -23,14 +23,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetCatalog $_qjaoBlStructGetCatalog
+     * @param MerlionStructGetCatalog $_merlionStructGetCatalog
      * @return MerlionStructGetCatalogResponse
      */
-    public function getCatalog(MerlionStructGetCatalog $_qjaoBlStructGetCatalog)
+    public function getCatalog(MerlionStructGetCatalog $_merlionStructGetCatalog)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getCatalog($_qjaoBlStructGetCatalog));
+            return $this->setResult(self::getSoapClient()->getCatalog($_merlionStructGetCatalog));
         }
         catch(SoapFault $soapFault)
         {
@@ -43,14 +43,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetShipmentDates $_qjaoBlStructGetShipmentDates
+     * @param MerlionStructGetShipmentDates $_merlionStructGetShipmentDates
      * @return MerlionStructGetShipmentDatesResponse
      */
-    public function getShipmentDates(MerlionStructGetShipmentDates $_qjaoBlStructGetShipmentDates)
+    public function getShipmentDates(MerlionStructGetShipmentDates $_merlionStructGetShipmentDates)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getShipmentDates($_qjaoBlStructGetShipmentDates));
+            return $this->setResult(self::getSoapClient()->getShipmentDates($_merlionStructGetShipmentDates));
         }
         catch(SoapFault $soapFault)
         {
@@ -63,14 +63,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetShipmentMethods $_qjaoBlStructGetShipmentMethods
+     * @param MerlionStructGetShipmentMethods $_merlionStructGetShipmentMethods
      * @return MerlionStructGetShipmentMethodsResponse
      */
-    public function getShipmentMethods(MerlionStructGetShipmentMethods $_qjaoBlStructGetShipmentMethods)
+    public function getShipmentMethods(MerlionStructGetShipmentMethods $_merlionStructGetShipmentMethods)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getShipmentMethods($_qjaoBlStructGetShipmentMethods));
+            return $this->setResult(self::getSoapClient()->getShipmentMethods($_merlionStructGetShipmentMethods));
         }
         catch(SoapFault $soapFault)
         {
@@ -83,14 +83,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetShipmentAgents $_qjaoBlStructGetShipmentAgents
+     * @param MerlionStructGetShipmentAgents $_merlionStructGetShipmentAgents
      * @return MerlionStructGetShipmentAgentsResponse
      */
-    public function getShipmentAgents(MerlionStructGetShipmentAgents $_qjaoBlStructGetShipmentAgents)
+    public function getShipmentAgents(MerlionStructGetShipmentAgents $_merlionStructGetShipmentAgents)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getShipmentAgents($_qjaoBlStructGetShipmentAgents));
+            return $this->setResult(self::getSoapClient()->getShipmentAgents($_merlionStructGetShipmentAgents));
         }
         catch(SoapFault $soapFault)
         {
@@ -103,14 +103,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetCounterAgent $_qjaoBlStructGetCounterAgent
+     * @param MerlionStructGetCounterAgent $_merlionStructGetCounterAgent
      * @return MerlionStructGetCounterAgentResponse
      */
-    public function getCounterAgent(MerlionStructGetCounterAgent $_qjaoBlStructGetCounterAgent)
+    public function getCounterAgent(MerlionStructGetCounterAgent $_merlionStructGetCounterAgent)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getCounterAgent($_qjaoBlStructGetCounterAgent));
+            return $this->setResult(self::getSoapClient()->getCounterAgent($_merlionStructGetCounterAgent));
         }
         catch(SoapFault $soapFault)
         {
@@ -123,14 +123,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetRepresentative $_qjaoBlStructGetRepresentative
+     * @param MerlionStructGetRepresentative $_merlionStructGetRepresentative
      * @return MerlionStructGetRepresentativeResponse
      */
-    public function getRepresentative(MerlionStructGetRepresentative $_qjaoBlStructGetRepresentative)
+    public function getRepresentative(MerlionStructGetRepresentative $_merlionStructGetRepresentative)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getRepresentative($_qjaoBlStructGetRepresentative));
+            return $this->setResult(self::getSoapClient()->getRepresentative($_merlionStructGetRepresentative));
         }
         catch(SoapFault $soapFault)
         {
@@ -143,14 +143,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetEndPointDelivery $_qjaoBlStructGetEndPointDelivery
+     * @param MerlionStructGetEndPointDelivery $_merlionStructGetEndPointDelivery
      * @return MerlionStructGetEndPointDeliveryResponse
      */
-    public function getEndPointDelivery(MerlionStructGetEndPointDelivery $_qjaoBlStructGetEndPointDelivery)
+    public function getEndPointDelivery(MerlionStructGetEndPointDelivery $_merlionStructGetEndPointDelivery)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getEndPointDelivery($_qjaoBlStructGetEndPointDelivery));
+            return $this->setResult(self::getSoapClient()->getEndPointDelivery($_merlionStructGetEndPointDelivery));
         }
         catch(SoapFault $soapFault)
         {
@@ -163,14 +163,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetPackingTypes $_qjaoBlStructGetPackingTypes
+     * @param MerlionStructGetPackingTypes $_merlionStructGetPackingTypes
      * @return MerlionStructGetPackingTypesResponse
      */
-    public function getPackingTypes(MerlionStructGetPackingTypes $_qjaoBlStructGetPackingTypes)
+    public function getPackingTypes(MerlionStructGetPackingTypes $_merlionStructGetPackingTypes)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getPackingTypes($_qjaoBlStructGetPackingTypes));
+            return $this->setResult(self::getSoapClient()->getPackingTypes($_merlionStructGetPackingTypes));
         }
         catch(SoapFault $soapFault)
         {
@@ -183,14 +183,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetItems $_qjaoBlStructGetItems
+     * @param MerlionStructGetItems $_merlionStructGetItems
      * @return MerlionStructGetItemsResponse
      */
-    public function getItems(MerlionStructGetItems $_qjaoBlStructGetItems)
+    public function getItems(MerlionStructGetItems $_merlionStructGetItems)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getItems($_qjaoBlStructGetItems));
+            return $this->setResult(self::getSoapClient()->getItems($_merlionStructGetItems));
         }
         catch(SoapFault $soapFault)
         {
@@ -203,14 +203,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetItemsAvail $_qjaoBlStructGetItemsAvail
+     * @param MerlionStructGetItemsAvail $_merlionStructGetItemsAvail
      * @return MerlionStructGetItemsAvailResponse
      */
-    public function getItemsAvail(MerlionStructGetItemsAvail $_qjaoBlStructGetItemsAvail)
+    public function getItemsAvail(MerlionStructGetItemsAvail $_merlionStructGetItemsAvail)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getItemsAvail($_qjaoBlStructGetItemsAvail));
+            return $this->setResult(self::getSoapClient()->getItemsAvail($_merlionStructGetItemsAvail));
         }
         catch(SoapFault $soapFault)
         {
@@ -223,14 +223,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetItemsProperties $_qjaoBlStructGetItemsProperties
+     * @param MerlionStructGetItemsProperties $_merlionStructGetItemsProperties
      * @return MerlionStructGetItemsPropertiesResponse
      */
-    public function getItemsProperties(MerlionStructGetItemsProperties $_qjaoBlStructGetItemsProperties)
+    public function getItemsProperties(MerlionStructGetItemsProperties $_merlionStructGetItemsProperties)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getItemsProperties($_qjaoBlStructGetItemsProperties));
+            return $this->setResult(self::getSoapClient()->getItemsProperties($_merlionStructGetItemsProperties));
         }
         catch(SoapFault $soapFault)
         {
@@ -243,14 +243,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetItemsImages $_qjaoBlStructGetItemsImages
+     * @param MerlionStructGetItemsImages $_merlionStructGetItemsImages
      * @return MerlionStructGetItemsImagesResponse
      */
-    public function getItemsImages(MerlionStructGetItemsImages $_qjaoBlStructGetItemsImages)
+    public function getItemsImages(MerlionStructGetItemsImages $_merlionStructGetItemsImages)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getItemsImages($_qjaoBlStructGetItemsImages));
+            return $this->setResult(self::getSoapClient()->getItemsImages($_merlionStructGetItemsImages));
         }
         catch(SoapFault $soapFault)
         {
@@ -263,14 +263,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetLinkedItems $_qjaoBlStructGetLinkedItems
+     * @param MerlionStructGetLinkedItems $_merlionStructGetLinkedItems
      * @return MerlionStructGetLinkedItemsResponse
      */
-    public function getLinkedItems(MerlionStructGetLinkedItems $_qjaoBlStructGetLinkedItems)
+    public function getLinkedItems(MerlionStructGetLinkedItems $_merlionStructGetLinkedItems)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getLinkedItems($_qjaoBlStructGetLinkedItems));
+            return $this->setResult(self::getSoapClient()->getLinkedItems($_merlionStructGetLinkedItems));
         }
         catch(SoapFault $soapFault)
         {
@@ -283,14 +283,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetOrdersList $_qjaoBlStructGetOrdersList
+     * @param MerlionStructGetOrdersList $_merlionStructGetOrdersList
      * @return MerlionStructGetOrdersListResponse
      */
-    public function getOrdersList(MerlionStructGetOrdersList $_qjaoBlStructGetOrdersList)
+    public function getOrdersList(MerlionStructGetOrdersList $_merlionStructGetOrdersList)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getOrdersList($_qjaoBlStructGetOrdersList));
+            return $this->setResult(self::getSoapClient()->getOrdersList($_merlionStructGetOrdersList));
         }
         catch(SoapFault $soapFault)
         {
@@ -303,14 +303,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetOrderLines $_qjaoBlStructGetOrderLines
+     * @param MerlionStructGetOrderLines $_merlionStructGetOrderLines
      * @return MerlionStructGetOrderLinesResponse
      */
-    public function getOrderLines(MerlionStructGetOrderLines $_qjaoBlStructGetOrderLines)
+    public function getOrderLines(MerlionStructGetOrderLines $_merlionStructGetOrderLines)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getOrderLines($_qjaoBlStructGetOrderLines));
+            return $this->setResult(self::getSoapClient()->getOrderLines($_merlionStructGetOrderLines));
         }
         catch(SoapFault $soapFault)
         {
@@ -323,14 +323,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetOrderLinesGTD $_qjaoBlStructGetOrderLinesGTD
+     * @param MerlionStructGetOrderLinesGTD $_merlionStructGetOrderLinesGTD
      * @return MerlionStructGetOrderLinesGTDResponse
      */
-    public function getOrderLinesGTD(MerlionStructGetOrderLinesGTD $_qjaoBlStructGetOrderLinesGTD)
+    public function getOrderLinesGTD(MerlionStructGetOrderLinesGTD $_merlionStructGetOrderLinesGTD)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getOrderLinesGTD($_qjaoBlStructGetOrderLinesGTD));
+            return $this->setResult(self::getSoapClient()->getOrderLinesGTD($_merlionStructGetOrderLinesGTD));
         }
         catch(SoapFault $soapFault)
         {
@@ -343,14 +343,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetCommandResult $_qjaoBlStructGetCommandResult
+     * @param MerlionStructGetCommandResult $_merlionStructGetCommandResult
      * @return MerlionStructGetCommandResultResponse
      */
-    public function getCommandResult(MerlionStructGetCommandResult $_qjaoBlStructGetCommandResult)
+    public function getCommandResult(MerlionStructGetCommandResult $_merlionStructGetCommandResult)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getCommandResult($_qjaoBlStructGetCommandResult));
+            return $this->setResult(self::getSoapClient()->getCommandResult($_merlionStructGetCommandResult));
         }
         catch(SoapFault $soapFault)
         {
@@ -363,14 +363,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetCurrencyRate $_qjaoBlStructGetCurrencyRate
+     * @param MerlionStructGetCurrencyRate $_merlionStructGetCurrencyRate
      * @return MerlionStructGetCurrencyRateResponse
      */
-    public function getCurrencyRate(MerlionStructGetCurrencyRate $_qjaoBlStructGetCurrencyRate)
+    public function getCurrencyRate(MerlionStructGetCurrencyRate $_merlionStructGetCurrencyRate)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getCurrencyRate($_qjaoBlStructGetCurrencyRate));
+            return $this->setResult(self::getSoapClient()->getCurrencyRate($_merlionStructGetCurrencyRate));
         }
         catch(SoapFault $soapFault)
         {
@@ -383,14 +383,14 @@ class MerlionServiceGet extends MerlionWsdlClass
      * @uses MerlionWsdlClass::getSoapClient()
      * @uses MerlionWsdlClass::setResult()
      * @uses MerlionWsdlClass::saveLastError()
-     * @param MerlionStructGetCountry $_qjaoBlStructGetCountry
+     * @param MerlionStructGetCountry $_merlionStructGetCountry
      * @return MerlionStructGetCountryResponse
      */
-    public function getCountry(MerlionStructGetCountry $_qjaoBlStructGetCountry)
+    public function getCountry(MerlionStructGetCountry $_merlionStructGetCountry)
     {
         try
         {
-            return $this->setResult(self::getSoapClient()->getCountry($_qjaoBlStructGetCountry));
+            return $this->setResult(self::getSoapClient()->getCountry($_merlionStructGetCountry));
         }
         catch(SoapFault $soapFault)
         {
